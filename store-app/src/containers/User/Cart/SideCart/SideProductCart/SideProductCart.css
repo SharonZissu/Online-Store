@@ -1,0 +1,13 @@
+.side-product-cart {
+    display: flex;
+}
+
+.side-product-cart .side-product-cart__img {
+    width: 30%;
+}
+
+.side-product-cart img {
+    height: 70px;
+    width: 70px;
+    margin: 1rem;
+}

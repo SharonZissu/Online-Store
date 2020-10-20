@@ -1,0 +1,40 @@
+.button-styled {
+    height: auto;
+    padding: 0.5rem 0;
+    font: inherit;
+    border: none;
+    margin: 0.3rem;
+    margin-bottom: 0;
+}
+
+.button-styled:hover {
+    cursor: pointer;
+    box-shadow: 0px 2px 3px #ccc;
+}
+
+.button-styled h2 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.buttons-side-cart {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.absolute-button {
+    position: absolute;
+    margin: 0;
+    top: 2;
+    left: 0;
+    z-index: 60;
+}
+
+.absolute-button:active,
+.absolute-button:focus,
+.absolute-button:hover {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}

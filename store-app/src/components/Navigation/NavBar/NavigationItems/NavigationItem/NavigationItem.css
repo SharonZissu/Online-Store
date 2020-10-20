@@ -1,0 +1,124 @@
+.main-nav {
+    margin: 1rem;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+@media screen and (max-width: 940px) {
+    .main-nav {
+        display: none;
+    }
+}
+
+.main-nav .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav .nav-link:hover {
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+
+.main-nav .nav-link_admin {
+    text-decoration: none;
+    color: red;
+}
+
+.main-nav .nav-link_admin:hover {
+    border-bottom: 3px solid red;
+    padding-bottom: 5px;
+}
+
+.main-nav .nav-link-active {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+}
+
+.main-nav .nav-link_admin-active {
+    margin: 0;
+    padding: 0;
+    color: red;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid red;
+}
+
+
+/* */
+
+.side-nav {
+    margin: 1rem;
+    font-size: 1.2rem;
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.side-nav .nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.side-nav .nav-link:hover {
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+
+.side-nav .nav-link_admin {
+    text-decoration: none;
+    color: red;
+}
+
+.side-nav .nav-link_admin:hover {
+    border-bottom: 3px solid red;
+    padding-bottom: 5px;
+}
+
+.side-nav .nav-link-active {
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+
+.side-nav .nav-link_admin-active {
+    margin: 0;
+    padding: 0;
+    color: red;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid red;
+}
+
+
+/* .main-a {
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+.main-a a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-a a:active {
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid black;
+}
+
+.main-a a:hover {
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+} */

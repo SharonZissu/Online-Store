@@ -1,0 +1,38 @@
+.side-cart {
+    display: flex;
+    overflow: scroll;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    right: 0;
+    z-index: 500;
+    height: 100%;
+    width: 320px;
+    background-color: rgb(243, 241, 241);
+    box-shadow: 0px 2px 6px rgb(85, 83, 83);
+    transition: all 500ms ease-out;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media (max-width: 414px) {
+    .side-cart {
+        width: 70%;
+    }
+}
+
+.side-cart::-webkit-scrollbar {
+    display: none;
+}
+
+.side-cart {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.side-cart p {
+    margin: 0.5rem;
+}

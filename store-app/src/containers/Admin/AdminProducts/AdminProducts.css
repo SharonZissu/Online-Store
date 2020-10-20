@@ -1,0 +1,14 @@
+.items-list {
+    margin: auto auto 2rem auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1060px) {
+    .items-list {
+        width: 100%;
+    }
+}

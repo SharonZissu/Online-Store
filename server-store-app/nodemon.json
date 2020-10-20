@@ -1,0 +1,11 @@
+{
+    "env": {
+        "DB_USER": "admin-sharon",
+        "DB_PASSWORD": "QmuLub4zF8SlN82g",
+        "DB_NAME": "onlineShop",
+        "STRIPE_KEY": "sk_test_51HEdIEJKrjebtZofd1VtbiGDVZVxLXpgNzwwmtMO6YXT7i1YeeE8AstrAKIOrs25vongOii8NKBZSBUqDMsvG2eN00BOisLE2O",
+        "NODEMAILER_KEY": "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",
+        "JWT_KEY": "somesupersecret",
+        "FRONT_URL": "http://localhost:3000"
+    }
+}

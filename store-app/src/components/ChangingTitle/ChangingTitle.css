@@ -1,0 +1,71 @@
+.main-title {
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+}
+
+.main-title h1 {
+    display: inline-block;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+}
+
+.main-title h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-title .details {
+    color: #ccc;
+    margin-left: 20px;
+}
+
+.main-title .details:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.main-title .shopping-cart {
+    color: #ccc;
+}
+
+.main-title .shopping-cart:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.main-title .order-complete {
+    color: black;
+    cursor: pointer;
+    margin-left: '20px'
+}
+
+.grey-left {
+    color: #ccc;
+    margin-left: 20px;
+}
+
+.main-title-mobile {
+    text-align: center;
+    margin: 3rem 0 3rem 0;
+    display: none;
+}
+
+.main-title-mobile h1 {
+    display: inline-block;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+}
+
+.main-title-mobile h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 940px) {
+    .main-title-mobile {
+        display: block;
+    }
+    .main-title {
+        display: none;
+    }
+}

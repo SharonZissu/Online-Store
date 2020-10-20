@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+.auth {
+    font-family: 'Hind Madurai', sans-serif;
+    background-color: black;
+    height: 87.55vh;
+    margin: 0;
+    padding: 6rem;
+    font-family: 'Hind Madurai', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.auth .auth-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: auto;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: black;
+    border-top: 2px solid rgb(47, 47, 48);
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.auth .auth-container .auth-container__title {
+    padding: 1rem;
+    height: 20%;
+    box-sizing: border-box;
+}
+
+.auth .auth-container .auth-container__title h1 {
+    color: white;
+    margin: 0;
+}
+
+.auth .auth-container .auth-container__details {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.error-message {
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.error-message h2 {
+    color: rgb(219, 58, 58);
+    margin-bottom: 0;
+}
+
+.email-sent {
+    margin: 0;
+    font-size: 0.7rem;
+}
+
+.email-sent h2 {
+    color: rgb(36, 122, 80);
+    margin-bottom: 0;
+}
+
+.auth-container__details .auth-inputs {
+    margin: 2rem auto 1rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 0px 0px rgb(105, 105, 105);
+    overflow: hidden;
+}
+
+
+/* .auth-container__details .auth-inputs form {
+    margin: 0;
+} */
+
+.auth-inputs .auth-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.auth-inputs .auth-input input {
+    width: 80%;
+    background-color: black;
+    color: white;
+    height: 2.8rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: 'Hind Madurai', sans-serif;
+    box-sizing: border-box;
+    border: none;
+    padding: 0.7rem;
+}
+
+.auth-inputs .auth-input input::placeholder {
+    font-family: 'Hind Madurai', sans-serif;
+    color: rgb(195, 189, 189);
+}
+
+.auth-inputs .auth-input input:hover,
+.auth-inputs .auth-input input:active,
+.auth-inputs .auth-input input:focus {
+    outline: none;
+    background-color: black;
+    color: white;
+}
+
+.auth-container__details p {
+    margin: 0;
+    color: rgb(195, 189, 189);
+    font-size: 1.2rem;
+}
+
+.auth-container__details button {
+    box-sizing: border-box;
+    width: 80%;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    margin: 1.4rem auto 2rem auto;
+    font-weight: 400;
+    font-size: 1.7rem;
+    font-weight: 300;
+    font-family: 'Hind Madurai', sans-serif;
+    border: none;
+    /* background-color: rgb(219, 58, 58); */
+    color: white;
+    box-shadow: 0px 1px 4px black;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.auth-container__details button:hover,
+.auth-container__details button:active,
+.auth-container__details button:focus {
+    outline: none;
+}
+
+.auth-container__details a {
+    text-decoration: none;
+}
+
+@media (max-width: 820px) {
+    .auth {
+        padding: 2rem 1rem 1rem 1rem;
+    }
+    .auth .auth-container {
+        width: 90%;
+    }
+}

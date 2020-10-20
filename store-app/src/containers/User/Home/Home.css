@@ -1,0 +1,211 @@
+        .home {
+            width: 100%;
+            height: calc(100vh - 92px);
+            background-color: #08080a;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+        
+        .main-pic {
+            margin: auto;
+            width: 60%;
+            height: 95%;
+            background-image: url('../../../assets/images/shopHome6.png');
+            background-size: 700px 470px;
+            background-repeat: no-repeat;
+            background-color: #08080a;
+            background-position: center 10%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            box-sizing: border-box;
+            margin: 0 auto;
+            border: 4px dashed white;
+        }
+        
+        .buttons {
+            display: flex;
+            margin-bottom: 3rem;
+        }
+        
+        .buttons .btn {
+            margin-left: 2rem;
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            font-size: 1.5rem;
+            font-family: inherit;
+            padding: 0.8rem 0 0.8rem 0;
+            width: 15rem;
+        }
+        
+        .btn:hover,
+        .btn:active,
+        .btn:focus {
+            background-color: white;
+            color: rgb(151, 149, 149);
+            outline: none;
+            cursor: pointer;
+        }
+        
+        @media (max-width: 1300px) {
+            .buttons {
+                flex-direction: column;
+            }
+            .buttons .btn {
+                margin-top: 1rem;
+            }
+        }
+        
+        @media (max-width: 960px) {
+            .main-pic {
+                width: 90%;
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .home {
+                padding: 0;
+            }
+            .main-pic {
+                width: 100%;
+                border: none;
+                background-size: 650px 480px;
+                background-position: 60% -40%;
+            }
+            .buttons .btn {
+                margin-left: 0.4rem;
+            }
+        }
+        /* @media (max-width: 1016px) {
+    .main-pic {
+        background-image: url('../../../assets/images/shopHome5.jpg');
+        background-size: cover;
+    }
+}
+
+@media (max-width: 650px) {
+    .main-pic {
+        background-position: 70% 0%;
+    }
+    .buttons {
+        flex-direction: column;
+    }
+    .buttons .btn {
+        margin-bottom: 1rem;
+    }
+}
+ */
+        /* .main-pic img {
+    width: 100%;
+    height: 100%;
+} */
+        /* @media (max-width: 850px) {
+    .home {
+        grid-template-areas: 'main' 'sales' ' contact';
+    }
+} */
+        /* .cart-list {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    background-color: black;
+    padding: 0 0 0.6rem 0;
+}
+
+.images-shop {
+    display: flex; */
+        /* justify-content: center; */
+        /* margin: 1rem 0 1rem 2rem;
+} */
+        /* .images-shop img {
+    height: 615px;
+    width: 841px;
+    border: 2px dashed white;
+    box-sizing: border-box; */
+        /* box-shadow: 0px 2px 3px #ccc; */
+        /* } */
+        /* .contact {
+    display: flex;
+    flex-direction: column;
+    height: 615px;
+    margin: 1rem 0 1rem 2rem;
+    box-sizing: border-box;
+}
+
+.sales {
+    width: 550px;
+    height: 300.5px;
+    border: 2px dashed white;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+    position: relative;
+} */
+        /* .sales-btn {
+    top: 8rem;
+    right: 23rem;
+}
+
+.follow-us {
+    width: 550px;
+    height: 280.5px;
+    border: 2px dashed rgb(243, 140, 188);
+    margin: 2rem 0 0 0;
+    box-sizing: border-box;
+}
+
+.follow-us-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 5rem;
+    right: 17rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(243, 140, 188);
+}
+
+.follow-us-btn:hover,
+.follow-us-btn:active,
+.follow-us-btn:focus {
+    cursor: pointer;
+    background-color: rgb(87, 17, 81);
+    outline: none;
+}
+
+.follow-us-btn button {
+    background: transparent;
+    color: rgb(243, 140, 188);
+    font: inherit;
+    border: none;
+    margin-left: 1.5rem;
+}
+
+.follow-us-btn button:hover,
+.follow-us-btn button:active,
+.follow-us-btn button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.sales img,
+.follow-us img {
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    width: 95%;
+    background-color: rgb(226, 226, 226);
+    ;
+    height: 0.5px;
+    border: none;
+}
+
+.instagram {
+    color: rgb(243, 140, 188);
+    bottom: 0;
+} */
